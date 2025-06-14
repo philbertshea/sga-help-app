@@ -1,5 +1,5 @@
 'use client';
-import data from "../data.json";
+import data from "@/data.json";
 import {InfoBlock} from "@/app/utils/helpers";
 
 export default function Home() {
