@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import data from "../data.json";
 
 function LinkCard({ href, title, image }: {href: string, title: string, image?: string}) {
   if (href === "") {
@@ -49,7 +50,11 @@ export default function Home() {
   return (
     <>
       <div className="flex place-items-center flex-col mx-auto w-full justify-center mt-6 p-2">
-        <h1 className="font-bold mt-4 text-5xl">Hello</h1>
+        <h1 className="font-bold mt-4 text-5xl">{data.name}</h1>
+        <h2 className="text-xl mt-3 pl-5 sm:pl-56 pr-5 sm:pr-56">{data.description}</h2>
+        {data.links.map((link) => (
+          <LinkCard key={link.url} href={link.url} {...link} />
+        ))}
       </div>
     </>
   );
