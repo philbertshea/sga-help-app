@@ -4,6 +4,7 @@
     "schemes": [
         {
             "title": "SMF - Senior Mobility and Enabling Fund",
+            "tag": "smf",
             "links": [
                 {
                     "title": "SMF Info Page",
@@ -18,6 +19,88 @@
                 {
                     "title": "Apply without Singpass",
                     "url": "https://for.sg/smf-application-not-using-singpass",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "EASE - Enhancement for Active Seniors",
+            "tag": "ease",
+            "links": [
+                {
+                    "title": "EASE Info Page",
+                    "url": "https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/for-our-seniors/ease",
+                    "image": ""
+                },
+                {
+                    "title": "Apply online via HDB e-Service",
+                    "url": "https://services2.hdb.gov.sg/webapp/BN37AWEASE/BN37PMain.jsp",
+                    "image": ""
+                },      
+                {
+                    "title": "EASE Calculator",
+                    "url": "https://services2.hdb.gov.sg/webapp/DJ02AWFNCALV7/Main",
+                    "image": ""
+                }
+            ]
+        },
+        
+        {
+            "title": "LPA - Lasting Power of Attorney",
+            "tag": "lpa",
+            "links": [
+                {
+                    "title": "LPA Info Page",
+                    "url": "https://opg-eservice.msf.gov.sg/",
+                    "image": ""
+                },
+                {
+                    "title": "Apply with Singpass",
+                    "url": "https://opg-eservice.msf.gov.sg/OPGO/Login.aspx",
+                    "image": ""
+                },
+                
+                {
+                    "title": "Find Certificate Issuers",
+                    "url": "https://book.health.gov.sg/lpa",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "SSS - CPF Silver Support Scheme",
+            "tag": "sss",
+            "links": [
+                {
+                    "title": "SSS Info Page",
+                    "url": "https://www.cpf.gov.sg/member/retirement-income/government-support/silver-support-scheme",
+                    "image": ""
+                },
+                {
+                    "title": "Check Eligibility",
+                    "url": "https://www.govpayouts.gov.sg/cds/main/login",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "title": "PTV - LTA Public Transport Vouchers",
+            "tag": "ptv",
+            "links": [
+                {
+                    "title": "PTV Info Page",
+                    "url": "https://www.mot.gov.sg/what-we-do/public-transport/public-transport-vouchers",
+                    "image": ""
+                },
+                {
+                    "title": "Apply with Singpass",
+                    "url": "https://go.gov.sg/ptv-apply",
+                    "image": ""
+                },
+                
+                {
+                    "title": "Appeal with Singpass",
+                    "url": "https://go.gov.sg/ptv-appeal",
                     "image": ""
                 }
             ]
