@@ -1,26 +1,27 @@
 {
     "name": "Senior",
     "description": "Refer to links below for scheme information and application.",
-    "links": [
+    "schemes": [
         {
             "title": "SMF - Senior Mobility and Enabling Fund",
-            "url": "",
-            "image": ""
-        },
-        {
-            "title": "SMF Info Page",
-            "url": "https://www.aic.sg/financial-assistance/seniors-mobility-and-enabling-fund-smf/",
-            "image": ""
-        },
-        {
-            "title": "Apply with Singpass",
-            "url": "https://for.sg/smf-application-using-singpass",
-            "image": ""
-        },
-        {
-            "title": "Apply without Singpass",
-            "url": "https://for.sg/smf-application-not-using-singpass",
-            "image": ""
+            "links": [
+                {
+                    "title": "SMF Info Page",
+                    "url": "https://www.aic.sg/financial-assistance/seniors-mobility-and-enabling-fund-smf/",
+                    "image": ""
+                },
+                {
+                    "title": "Apply with Singpass",
+                    "url": "https://for.sg/smf-application-using-singpass",
+                    "image": ""
+                },      
+                {
+                    "title": "Apply without Singpass",
+                    "url": "https://for.sg/smf-application-not-using-singpass",
+                    "image": ""
+                }
+            ]
         }
+        
     ]
 }
