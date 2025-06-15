@@ -12,6 +12,10 @@ export default function Home() {
           <InfoBlock title={scheme.title} links={scheme.links} />
         ))}
       </div>
+      <footer className="flex place-items-center flex-col mx-auto w-full justify-center mt-6 p-2">
+          <p>Prototype developed by Philbert Shea. Links may be inaccurate, check first.</p>
+          <a href="https://github.com/philbertshea/sga-help-app"><u>Github Repo</u></a>
+      </footer>
     </>
   );
 }
